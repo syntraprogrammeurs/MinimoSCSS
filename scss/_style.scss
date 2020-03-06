@@ -16,6 +16,7 @@ MOBILE FIRST
 $baseFontColor:#626262;
 $baseFontColorSec: #000;
 $baseFontColorThird: #333;
+$baseFontColorFourth: #b4ad9e;
 /*ALGEMENE CLASSES*/
 body{
   font-size:1rem;
@@ -44,7 +45,22 @@ nav{
   background-image: url(
   "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(80, 148, 242, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
-/*BEGIN NAVIGATIE*/
+/*EINDE NAVIGATIE*/
+/*BEGIN MAINARTICLE*/
+#mainArticle{
+  article{
+    h1{
+      margin-top:25px;
+      font-size:0.625rem;
+      color:$baseFontColorFourth;
+    }
+    h2{
+      font-size:1.5rem;
+      color:$baseFontColor;
+    }
+
+  }
+}
 
 /*************************
 SCREENS LARGER THEN MOBILE
@@ -60,9 +76,17 @@ SCREENS LARGER THEN MOBILE
   #mijnNav{
     margin-top:70px;
   }
-}
+  #mainArticle{
+    article{
+      h1{
+        margin-top:100px;
+      }
+    }
+}}
 /*xl*/
-@media (min-width: 1200px) { }
+@media (min-width: 1200px) {
+}
+
 
 
 
