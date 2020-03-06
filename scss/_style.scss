@@ -1,0 +1,69 @@
+/**************
+MOBILE FIRST
+**************/
+/*FONTS*/
+
+@font-face {
+  font-family: pfd;
+  src: url(../webfonts/PlayfairDisplay-Black.ttf);
+}
+@font-face {
+  font-family: pfdr;
+  src: url(../webfonts/PlayfairDisplay-Regular.ttf);
+}
+
+/*VARIABELEN*/
+$baseFontColor:#626262;
+$baseFontColorSec: #000;
+$baseFontColorThird: #333;
+/*ALGEMENE CLASSES*/
+body{
+  font-size:1rem;
+  color:$baseFontColor;
+  font-family:pfdr;
+}
+
+/*BEGIN NAVIGATIE*/
+
+.navbar-brand{
+  font-family:pfd;
+  font-size:1.25rem;
+  letter-spacing:4px;
+  color:$baseFontColorSec;
+}
+nav{
+  a{
+    color:$baseFontColorThird;
+  }
+}
+.custom-toggler.navbar-toggler {
+  border-color: red;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url(
+  "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(80, 148, 242, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+/*BEGIN NAVIGATIE*/
+
+/*************************
+SCREENS LARGER THEN MOBILE
+**************************/
+/*sm*/
+@media (min-width: 576px) {  }
+
+/*md*/
+@media (min-width: 768px) {  }
+
+/*lg*/
+@media (min-width: 992px) {
+  #mijnNav{
+    margin-top:70px;
+  }
+}
+/*xl*/
+@media (min-width: 1200px) { }
+
+
+
+
